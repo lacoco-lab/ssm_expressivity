@@ -1,0 +1,24 @@
+basic:
+    random_state: 42
+    is_flip_flop: False
+    use_wandb: True
+    generate_dataset: True
+    wandb_run: Null
+    max_seq_size: 0
+    pad_value: 0
+    use_scheduler: False
+    debug: False
+defaults:
+    - _self_
+    - model: mamba
+    - train: defaults
+    - dataset: parity
+    - optimizer: adamw
+    - loss: mse
+    - scheduler : steplr
+    - override hydra/job_logging: custom
+hydra:
+    job:
+        chdir: True
+    run:
+        dir: ./outputs/${now:%Y-%m-%d}/${now:%H-%M-%S.%f}

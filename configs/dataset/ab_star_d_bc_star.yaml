@@ -1,0 +1,15 @@
+name: ABStar_D_BCStar
+lang_fam: StarFree
+batch_size: 32
+mandatory: 'd'
+pre_choices: 'ab'
+post_choices: 'bc'
+multiple: True
+chunk_size: 4
+num_val_bins: 2
+lower_window: 2
+upper_window: 50
+len_incr: 50
+training_size: 10000
+test_size: 2000
+lang_class: StarFreeSpecial

@@ -1,0 +1,14 @@
+name: D-12
+lang_fam: StarFree
+batch_size: 32
+multiple: True
+chunk_size: 2
+unique: True
+num_val_bins: 2
+lower_window: 2
+upper_window: 100
+len_incr: 100
+training_size: 10000
+test_size: 2000
+lang_class: D_n
+num_par: 12

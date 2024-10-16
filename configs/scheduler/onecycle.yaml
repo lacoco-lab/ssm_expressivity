@@ -1,0 +1,6 @@
+_target_: torch.optim.lr_scheduler.OneCycleLR
+max_lr: ${optimizer.lr}
+anneal_strategy: linear
+pct_start: 0.1
+total_steps: 30000
+# In the code the optimizer is added here

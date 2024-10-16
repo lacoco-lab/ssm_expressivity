@@ -1,0 +1,11 @@
+name: anbncndn
+lang_fam: Counter
+batch_size: 32
+multiple: False
+num_val_bins: 3
+num_par: 4
+training_size: 1000
+test_size: 50
+lower_window: 4
+upper_window: 200
+len_incr: 200

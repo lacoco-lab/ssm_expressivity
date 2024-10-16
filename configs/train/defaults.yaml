@@ -1,0 +1,4 @@
+---
+device: cuda:0
+epochs: 50
+save_model: True

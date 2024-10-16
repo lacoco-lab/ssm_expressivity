@@ -1,0 +1,14 @@
+hydra:
+  job_logging:
+  handlers:
+    file_handler:
+      class: logging.Filehandler
+      filename: ./outputs/${now:%Y-%m-%d}/${now:%H-%M-%S.%f}
+      level: INFO
+      formatter: simple
+  formatters:
+    simple:
+      format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  root:
+    level: INFO
+    handlers: [file_handler]

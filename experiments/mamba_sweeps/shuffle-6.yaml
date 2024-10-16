@@ -1,0 +1,23 @@
+program: train_with_ce.py
+name: shuffle-6
+method: grid
+parameters:
+  dataset:
+    values: [shuffle-6]
+  model:
+    values: [mamba]
+  model.num_layers:
+    values: [1, 2, 3]
+  model.d_channels:
+    values: [64, 128, 256]
+  train.epochs:
+    values: [100]
+  basic.use_scheduler:
+    values: [False]
+  optimizer.lr:
+    values: [0.0001, 0.00003]
+command:
+  - ${env}
+  - python
+  - ${program}
+  - ${args_no_hyphens}  

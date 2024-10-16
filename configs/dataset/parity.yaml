@@ -1,0 +1,10 @@
+name: Parity
+lang_fam: Parity
+batch_size: 32
+multiple: False
+num_val_bins: 2
+training_size: 10000
+test_size: 2000
+lower_window: 2
+upper_window: 50
+len_incr: 50

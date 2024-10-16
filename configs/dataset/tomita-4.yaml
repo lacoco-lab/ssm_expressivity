@@ -1,0 +1,15 @@
+name: Tomita-4
+lang_fam: Tomita
+batch_size: 32
+multiple: True
+chunk_size: 2
+num_val_bins: 2
+num_par: 4
+lower_window: 1
+upper_window: 100
+test_size: 2000
+training_size: 10000
+leak: True
+unique: True
+debug: False
+len_incr: 50

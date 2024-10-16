@@ -1,0 +1,12 @@
+name: AAStar
+lang_fam: NonStarFree
+batch_size: 32
+multiple: False
+num_val_bins: 2
+lower_window: 2
+upper_window: 500
+len_incr: 100
+training_size: 250
+test_size: 50
+lang_class: AAStar
+num_par: 2

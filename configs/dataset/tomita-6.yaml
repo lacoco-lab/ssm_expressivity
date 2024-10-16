@@ -1,0 +1,14 @@
+name: Tomita-6
+lang_fam: Tomita
+batch_size: 32
+multiple: False
+num_val_bins: 4
+num_par: 6
+lower_window: 1
+upper_window: 100
+test_size: 10000
+training_size: 10000
+leak: True
+unique: True
+debug: False
+len_incr: 50

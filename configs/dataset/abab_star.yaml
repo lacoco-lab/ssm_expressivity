@@ -1,0 +1,12 @@
+name: ABABStar
+lang_fam: NonStarFree
+batch_size: 32
+multiple: False
+num_val_bins: 2
+lower_window: 4
+upper_window: 500
+len_incr: 100
+training_size: 125
+test_size: 25
+lang_class: ABABStar
+num_par: 2

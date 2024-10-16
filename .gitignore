@@ -1,0 +1,10 @@
+formtest/**
+.wandb_api
+wandb/**
+**__pycache__**
+.idea
+.env
+outputs/**
+debug_results.txt
+**.DS_Store
+out/**

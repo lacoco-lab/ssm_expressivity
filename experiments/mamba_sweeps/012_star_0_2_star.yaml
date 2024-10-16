@@ -1,0 +1,17 @@
+program: train_with_ce.py
+name: 012_star_0_2_star
+method: grid
+parameters:
+  dataset:
+    values: [012_star_0_2_star]
+  model:
+    values: [mamba]
+  model.num_layers:
+    values: [1, 2, 3]
+  train.epochs:
+    values: [100]
+command:
+  - ${env}
+  - python
+  - ${program}
+  - ${args_no_hyphens}

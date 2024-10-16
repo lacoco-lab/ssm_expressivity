@@ -1,0 +1,15 @@
+name: 012Star_0_2Star
+lang_fam: StarFree
+mandatory: '0'
+pre_choices: '012'
+post_choices: '2'
+batch_size: 32
+multiple: False
+chunk_size: 1
+num_val_bins: 2
+lower_window: 2
+upper_window: 50
+len_incr: 50
+training_size: 10000
+test_size: 2000
+lang_class: StarFreeSpecial

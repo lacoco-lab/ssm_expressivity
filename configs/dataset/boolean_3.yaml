@@ -1,0 +1,12 @@
+name: Boolean3
+lang_fam: Boolean
+batch_size: 32
+multiple: False
+num_val_bins: 3
+p_val: 0.5
+num_par: 3
+lower_window: 2
+upper_window: 50
+training_size: 10000
+test_size: 2000
+len_incr: 50

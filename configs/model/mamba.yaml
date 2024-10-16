@@ -1,0 +1,7 @@
+name: Mamba
+d_conv: 4
+d_expand: 2
+d_state: 16
+d_channels: 16
+num_layers: 1
+debug: False

@@ -1,0 +1,13 @@
+name: AAStarBBStarCCStarDDStarEEStar
+lang_fam: StarFree
+batch_size: 32
+multiple: False
+unique: True
+num_val_bins: 2
+lower_window: 5
+upper_window: 200
+len_incr: 100
+training_size: 10000
+test_size: 2000
+lang_class: AAStarBBStar
+num_par: 5
